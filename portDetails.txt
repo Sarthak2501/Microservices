@@ -1,0 +1,11 @@
+user_service
+	port 9004
+
+	/user/1334
+
+contact_service
+	port 9003
+
+	/contact/user/{userId}
+
+	
