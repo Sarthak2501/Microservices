@@ -28,7 +28,7 @@ public class UserController {
         User user = this.userService.getUser(userId);
         //http://localhost:9002/user/1312
 
-        List contact = this.restTemplate.getForObject("http://localhost:9003/contact/user/" + user.getUserId() , List.class);
+        List contact = this.restTemplate.getForObject("http://contact-service/contact/user/" + user.getUserId() , List.class);
 
         user.setContacts(contact);
         return user;
