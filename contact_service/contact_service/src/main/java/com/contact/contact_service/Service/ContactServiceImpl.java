@@ -16,7 +16,7 @@ public class ContactServiceImpl implements ContactService{
             new Contact(1L,"amit@gmail.com","Amit",1311L),
             new Contact(2L,"anil@gmail.com","Anil",1311L),
             new Contact(3L,"Rohan@gmail.com","Rohan",1312L),
-            new Contact(4L,"Sameer@gmail.com","Sameer",1314L)
+            new Contact(4L,"Sameer@gmail.com","Sameer",1313L)
     );
 
     @Override
